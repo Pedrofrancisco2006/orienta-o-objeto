@@ -1,0 +1,13 @@
+class Vendas:
+    def __init__(self, valor):
+        self.valor = valor
+        
+    def depositar(self, deposito):
+        self.valor += deposito
+        
+    def exibir(self):
+        print(f"Saldo é {self.valor}")
+
+deposito = Vendas(0)
+deposito.depositar(500)
+deposito.exibir()
