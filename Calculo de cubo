@@ -1,0 +1,13 @@
+class Cubo:
+
+    def __init__(self, valor):
+        self.x = valor
+        print( '|Metodo Criado| ')
+
+    def calcularCubo(self):
+        cubo = self.x * self.x * self.x
+        return f'Cubo Calculado {cubo}'
+
+cubo = Cubo(int(input('Digite um valor para saber o cubo: ')))
+calculo = cubo.calcularCubo()
+print(calculo)
