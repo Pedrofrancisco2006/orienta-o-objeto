@@ -1,0 +1,17 @@
+class Vendas:
+    def __init__(self, nome):
+        self.nome = nome
+        self.vendas = 0 
+        
+    def vendeu(self, vendas):
+        self.vendas = vendas
+
+    def bateu_metas(self, meta):
+       if  self.vendas >= meta:
+           print(f"{self.nome} Bateu a meta!")
+       else:
+           print('Não bateu a meta')
+        
+vendedor1 =  Vendas('JORGE')
+vendedor1.vendeu(500)
+vendedor1.bateu_metas(500)
