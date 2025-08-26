@@ -1,0 +1,13 @@
+class carro:
+    def __init__(self, marca , modelo , ano):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+    
+    def exibir(self):
+        print(f"{self.marca} : {self.modelo} : {self.ano}")
+
+carro1 = carro('Toyota', 'Corolla' , '2020' )
+carro1.exibir()
+carro2 = carro('Ferrari', 'F40' , '1980' )
+carro2.exibir()
