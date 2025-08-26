@@ -1,0 +1,8 @@
+class nomedaclasse:
+    def __init__(self, valor , valor2):
+        self.x = valor
+        self.x = valor2
+        print('Iniciei a classe')
+
+
+variaveldaclasse = nomedaclasse('Exemplo', )    
